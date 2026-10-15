@@ -2,13 +2,13 @@ public class VariablePractice {
     public static void main(String[] args) {
 
         byte age;
-        age = 127;
+        age = 27;
 
-        short years = 32767;
+        short monthsOld = 331;
 
-        char favoriteLetter1, favoriteLetter2;
-        favoriteLetter1 = 's';
-        favoriteLetter2 = 'd';
+        char favoriteSymbol1, favoriteSymbol2;
+        favoriteSymbol1 = ',';
+        favoriteSymbol2 = '_';
 
         boolean isAdult = true, isOld = false;
 
@@ -16,6 +16,12 @@ public class VariablePractice {
 
         int numberOfCats = 7, numberOfDogs = 5;
 
+        String greeting1 = "hello";
+        String greeting2 = "world";
 
+        System.out.println(rating + rank + greeting1);
+        System.out.println(greeting1 + favoriteSymbol1 + " " + greeting2 + favoriteSymbol2 + numberOfCats + numberOfDogs);
+        System.out.println(greeting1 + rank + numberOfCats + greeting2);
+        System.out.println(numberOfCats + numberOfDogs + greeting2 + numberOfDogs + rating);
     }
 }
