@@ -11,10 +11,14 @@ public class UsingVariables {
         dVar1 = 3.7;
         dVar2 = 5.5;
 
+        // added blank spaces for readability
+
+        System.out.println(" ");
         System.out.println("The current value of intVar is " + intVar);
         System.out.println("The current value of charVar is " + charVar);
         System.out.println("The current value of dVar1 is " + dVar1);
         System.out.println("The current value of dVar2 is " + dVar2);
+        System.out.println(" ");
 
         intVar = 6;
         charVar = 'd';
@@ -25,6 +29,7 @@ public class UsingVariables {
         System.out.println("The new value of charVar is " + charVar);
         System.out.println("The new value of dVar1 is " + dVar1);
         System.out.println("The new value of dVar2 is " + dVar2);
+        System.out.println(" ");
 
         double dVarPlaceHolder1;
         double dVarPlaceHolder2;
@@ -35,8 +40,5 @@ public class UsingVariables {
 
         System.out.println("The final value of dVar1 is " + dVar1);
         System.out.println("The final value of dVar2 is " + dVar2);
-
-
-
     }
 }
