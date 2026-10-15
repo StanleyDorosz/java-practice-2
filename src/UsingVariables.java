@@ -33,8 +33,6 @@ public class UsingVariables {
         dVar1 = dVarPlaceHolder2;
         dVar2 = dVarPlaceHolder1;
 
-
-
         System.out.println("The final value of dVar1 is " + dVar1);
         System.out.println("The final value of dVar2 is " + dVar2);
 
